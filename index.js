@@ -1,5 +1,5 @@
 const http = require('http')
-const fs = require('fs')
+const fs = require('fs') // module file system
 
 const homePage = fs.readFileSync('home.html')
 const aboutPage = fs.readFileSync('about.html')
